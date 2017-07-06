@@ -61,16 +61,7 @@ class Form extends Component {
 
 class App extends Component {
 	state = {
-  	cards : [
-        // {avatar_url:"https://avatars3.githubusercontent.com/u/810438?v=3",
-        //         name : "Dan Abramov",
-        //         company : "Facebook"},
-        // {
-        // avatar_url :"https://avatars0.githubusercontent.com/u/931533?v=3",
-        //         name :"Arun Bharadwaj",
-        //         company :"Facebook"
-        // }
-		]
+  	cards : []
   };
   
   addNewCard = (cardInfo) => {
